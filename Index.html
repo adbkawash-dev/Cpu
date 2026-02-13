@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CPU & Embedded Systems</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>CPU & Embedded Systems</h1>
+  <p>Interactive Information Website</p>
+</header>
+
+<nav>
+  <a href="#cpu">CPU</a>
+  <a href="#performance">Performance</a>
+  <a href="#embedded">Embedded</a>
+  <a href="#advantages">Advantages</a>
+  <a href="#quiz">Quiz</a>
+</nav>
+
+<section id="cpu" class="card">
+  <h2>Components of a CPU</h2>
+  <ul>
+    <li><b>Control Unit:</b> Fetches and decodes instructions.</li>
+    <li><b>ALU:</b> Performs math and logical operations.</li>
+    <li><b>Registers:</b> Small fast storage inside the CPU.</li>
+    <li><b>Cache:</b> Stores frequently used data for faster access.</li>
+  </ul>
+</section>
+
+<section id="performance" class="card">
+  <h2>What Affects CPU Performance</h2>
+  <ul>
+    <li>Clock speed (GHz)</li>
+    <li>Number of cores</li>
+    <li>Cache size</li>
+    <li>Processor architecture</li>
+    <li>Temperature and power limits</li>
+  </ul>
+</section>
+
+<section id="embedded" class="card">
+  <h2>Embedded Computers</h2>
+  <p>
+    Embedded computers are built for one specific task inside a larger device.
+    They are found in cars, appliances, medical machines and traffic lights.
+    They usually use microcontrollers that combine processor, memory and I/O on one chip.
+  </p>
+</section>
+
+<section id="advantages" class="card">
+  <h2>Advantages of Embedded Systems</h2>
+  <ul>
+    <li>More energy efficient</li>
+    <li>Smaller and cheaper</li>
+    <li>More reliable</li>
+    <li>Less complex</li>
+    <li>Predictable real-time performance</li>
+  </ul>
+</section>
+
+<section id="quiz" class="card">
+  <h2>Quiz</h2>
+  <div id="quizContainer"></div>
+  <button onclick="gradeQuiz()">Grade Quiz</button>
+  <p id="result"></p>
+</section>
+
+<footer>
+  <p>Created for School Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
